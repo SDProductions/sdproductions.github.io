@@ -1,41 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
   font-family: "Trebuchet MS", sans-serif;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  font-size: 1vw;
+  margin: 0;
+}
+
+.page {
+  height: 100vh;
 }
 
 #group-title {
-  margin: 0;
   margin-left: 8vw;
-  padding-top: 20vh;
+  padding-top: 30vh;
 }
 
 #title-icon {
   float: left;
-  height: 7vw;
-  width: 7vw;
-  margin: 0;
-  padding: 0;
+  height: 7em;
+  width: 7em;
   opacity: 0;
 }
 
 #title {
-  font-size: 6vw;
-  margin: inherit;
-  padding: 0;
+  font-size: 6em;
+  margin: 0;
+  padding-left: 8vw;
   opacity: 0;
 }
 
 #title-caption {
-  font-size: 1.8vw;
-  margin: inherit;
-  padding: 0;
+  font-size: 1.8em;
+  margin: 0;
+  padding-left: 8vw;
   opacity: 0;
 }
 
-h3 {
-  font-size: 1.6vw;
-  margin-top: 15vh;
+#scroll-icon {
+  display: block;
+  margin: auto;
+  margin-top: 36vh;
+  height: 4vh;
+  width: 4vw;
+  opacity: 0;
+}
+
+.header-bar {
+  background-color: rgb(67, 87, 114);
+  font-size: 1vw;
+  padding: 1.6vh;
+  opacity: 0;
+  text-align: center;
+}
+
+.content-block {
   margin-left: 8vw;
+  padding: 5vw;
+  padding-top: 0vw;
+}
+
+.row {
+  background-color: #eeeeee;
+  float: left;
+  margin-right: 5vw;
+  padding: 2vw;
+  padding-top: 0.5vw;;
+  height: 20em;
+  width: 20em;
   opacity: 0;
 }
