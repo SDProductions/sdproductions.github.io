@@ -3,6 +3,7 @@
 }
 
 body {
+  background-color: #eeeeee;
   font-family: "Trebuchet MS", sans-serif;
   font-size: 1vw;
   margin: 0;
@@ -47,27 +48,88 @@ body {
   opacity: 0;
 }
 
+.newline {
+  clear: both;
+}
+
 .header-bar {
   background-color: rgb(67, 87, 114);
   font-size: 1vw;
-  padding: 1.6vh;
+  padding: 1.4vh;
   opacity: 0;
   text-align: center;
 }
 
+.secondary-header {
+  margin-top: 15vh;
+}
+
 .content-block {
+  clear: both;
   margin-left: 8vw;
   padding: 5vw;
   padding-top: 0vw;
 }
 
 .row {
-  background-color: #eeeeee;
+  background-color: #dfdfdf;
   float: left;
   margin-right: 5vw;
   padding: 2vw;
-  padding-top: 0.5vw;;
-  height: 20em;
-  width: 20em;
+  padding-top: 0.5vw;
+  height: 20vw;
+  width: 20vw;
   opacity: 0;
+}
+
+.row p {
+  margin-top: 2vh;
+}
+
+.left-block {
+  background-color: #dfdfdf;
+  float: left;
+  margin-top: 8vh;
+  margin-left: -3vw;
+  padding: 2vw;
+  padding-top: 0.5vw;
+  height: 18em;
+  width: 38em;
+  opacity: 0;
+}
+
+.right-block {
+  background-color: #dfdfdf;
+  float: right;
+  margin-top: 8vh;
+  margin-left: -3vw;
+  margin-right: 8vw;
+  padding: 2vw;
+  padding-top: 0.5vw;
+  height: 18em;
+  width: 30em;
+  opacity: 0;
+}
+
+.block-header {
+  background-color: #ccccd4;
+  margin: -2vw;
+  margin-top: -1vw;
+  margin-bottom: 0;
+  padding: 1vw 2vw;
+}
+
+footer {
+  background-color: #555555;
+  color: #cccccc;
+  clear: both;
+  font-size: 0.8em;
+  margin-top: -15vh;
+  margin-bottom: 0;
+  padding: 2vh;
+}
+
+footer p {
+  margin-left: 10em;
+  width: 50em;
 }
