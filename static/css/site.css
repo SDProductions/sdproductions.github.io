@@ -1,135 +1,66 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-  background-color: #eeeeee;
+  background-color: #efefef;
   font-family: "Trebuchet MS", sans-serif;
   font-size: 1vw;
   margin: 0;
 }
 
-.page {
-  height: 100vh;
-}
-
 #group-title {
-  margin-left: 8vw;
-  padding-top: 30vh;
+  margin: auto;
+  padding: 2em 2em;
+  width: 40%;
 }
 
 #title-icon {
   float: left;
-  height: 7em;
-  width: 7em;
+  height: 6em;
+  width: 6em;
   opacity: 0;
 }
 
 #title {
-  font-size: 6em;
+  font-size: 4em;
   margin: 0;
   padding-left: 8vw;
   opacity: 0;
 }
 
 #title-caption {
-  font-size: 1.8em;
+  font-size: 1.2em;
   margin: 0;
   padding-left: 8vw;
   opacity: 0;
 }
 
-#scroll-icon {
-  display: block;
-  margin: auto;
-  margin-top: 36vh;
-  height: 4vh;
-  width: 4vw;
-  opacity: 0;
-}
-
-.newline {
-  clear: both;
-}
-
-.header-bar {
-  background-color: rgb(67, 87, 114);
-  font-size: 1vw;
-  padding: 1.4vh;
-  opacity: 0;
+#navbar {
+  font-size: 1.2em;
   text-align: center;
 }
 
-.secondary-header {
-  margin-top: 15vh;
+#navbar a {
+  color: #343953;
+  text-decoration: none;
 }
 
-.content-block {
-  clear: both;
-  margin-left: 8vw;
-  padding: 5vw;
-  padding-top: 0vw;
-}
-
-.row {
-  background-color: #dfdfdf;
-  float: left;
-  margin-right: 5vw;
-  padding: 2vw;
-  padding-top: 0.5vw;
-  height: 20vw;
-  width: 20vw;
-  opacity: 0;
-}
-
-.row p {
-  margin-top: 2vh;
-}
-
-.left-block {
-  background-color: #dfdfdf;
-  float: left;
-  margin-top: 8vh;
-  margin-left: -3vw;
-  padding: 2vw;
-  padding-top: 0.5vw;
-  height: 18em;
-  width: 38em;
-  opacity: 0;
-}
-
-.right-block {
-  background-color: #dfdfdf;
-  float: right;
-  margin-top: 8vh;
-  margin-left: -3vw;
-  margin-right: 8vw;
-  padding: 2vw;
-  padding-top: 0.5vw;
-  height: 18em;
-  width: 30em;
-  opacity: 0;
-}
-
-.block-header {
-  background-color: #ccccd4;
-  margin: -2vw;
-  margin-top: -1vw;
-  margin-bottom: 0;
-  padding: 1vw 2vw;
+#trackrico {
+  width: 18em;
+  margin-top: 5em;
+  margin-left: 22em;
 }
 
 footer {
   background-color: #555555;
   color: #cccccc;
-  clear: both;
   font-size: 0.8em;
-  margin-top: -15vh;
   margin-bottom: 0;
   padding: 2vh;
+  position: absolute;
+  bottom: -15em;
+  right: 0;
+  left: 0;
 }
 
 footer p {
   margin-left: 10em;
-  width: 50em;
+  width: 30em;
 }
