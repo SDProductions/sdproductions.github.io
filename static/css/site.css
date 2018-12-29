@@ -7,45 +7,65 @@ body {
 
 #group-title {
   margin: auto;
-  padding: 2em 2em;
+  padding: 1em 2em;
   width: 40%;
+  opacity: 0;
 }
 
 #title-icon {
   float: left;
-  height: 6em;
-  width: 6em;
-  opacity: 0;
+  height: 6.2em;
+  width: 6.2em;
 }
 
 #title {
   font-size: 4em;
   margin: 0;
   padding-left: 8vw;
-  opacity: 0;
 }
 
 #title-caption {
   font-size: 1.2em;
   margin: 0;
   padding-left: 8vw;
-  opacity: 0;
 }
 
 #navbar {
   font-size: 1.2em;
+  margin: 0.4em;
   text-align: center;
+  opacity: 0;
 }
 
 #navbar a {
-  color: #343953;
+  color: #403F4C;
   text-decoration: none;
 }
 
-#trackrico {
-  width: 18em;
-  margin-top: 5em;
-  margin-left: 22em;
+#trackr {
+  margin: 0 20em;
+  margin-top: 10vh;
+  width: 60em;
+  opacity: 0;
+}
+
+#trackr img {
+  float: left;
+  width: 20em;
+}
+
+#infogroup {
+  margin-left: 24em;
+}
+
+#infogroup h1 {
+  color: #3B3A46;
+  font-size: 3em;
+}
+
+#infogroup p {
+  color: #403F4C;
+  font-size: 1.2em;
 }
 
 footer {
@@ -55,7 +75,7 @@ footer {
   margin-bottom: 0;
   padding: 2vh;
   position: absolute;
-  bottom: -15em;
+  bottom: -10em;
   right: 0;
   left: 0;
 }
