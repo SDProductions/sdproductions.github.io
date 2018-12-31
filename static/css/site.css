@@ -42,33 +42,41 @@ body {
   text-decoration: none;
 }
 
-#trackr {
+#cynobroad {
+  display: none;
+}
+
+#webventures {
+  display: none;
+}
+
+.projecttab {
   margin: 0 20em;
   margin-top: 5em;
   width: 60em;
   opacity: 0;
 }
 
-#trackr img {
+.projecttab img {
   float: left;
   width: 20em;
 }
 
-#infogroup {
+.infogroup {
   margin-left: 24em;
 }
 
-#infogroup h1 {
+.infogroup h1 {
   color: #3B3A46;
   font-size: 3em;
 }
 
-#infogroup p {
+.infogroup p {
   color: #403F4C;
   font-size: 1.2em;
 }
 
-#infogroup img {
+.infogroup img {
   margin-top: -1em;
   margin-left: -0.5em;
   width: 25%;

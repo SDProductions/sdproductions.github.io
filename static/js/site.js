@@ -5,3 +5,30 @@ $(document).ready(function() {
     });
   });
 });
+
+function trackr() {
+  $("#webventures").fadeTo(300, 0);
+  document.getElementById("webventures").style.display = "none";
+  $("#cynobroad").fadeTo(300, 0);
+  document.getElementById("cynobroad").style.display = "none";
+  $("#trackr").fadeTo(400, 1);
+  return false;
+}
+
+function cynobroad() {
+  $("#trackr").fadeTo(300, 0);
+  document.getElementById("trackr").style.display = "none";
+  $("#webventures").fadeTo(300, 0);
+  document.getElementById("webventures").style.display = "none";
+  $("#cynobroad").fadeTo(400, 1);
+  return false;
+}
+
+function webventures() {
+  $("#trackr").fadeTo(300, 0);
+  document.getElementById("trackr").style.display = "none";
+  $("#cynobroad").fadeTo(300, 0);
+  document.getElementById("cynobroad").style.display = "none";
+  $("#webventures").fadeTo(400, 1);
+  return false;
+}
