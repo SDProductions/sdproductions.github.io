@@ -104,3 +104,131 @@ footer p {
   margin-left: 10em;
   width: 30em;
 }
+
+@media screen and (max-width: 160vh) {
+  #group-title {
+    width: 48%;
+  }
+
+  #title-icon {
+    height: 8em;
+    width: 8em;
+  }
+
+  #title {
+    font-size: 5em;
+    padding-left: 9vw;
+  }
+
+  #title-caption {
+    font-size: 1.5em;
+    padding-left: 9vw;
+  }
+
+  #navbar {
+    font-size: 1.5em;
+  }
+
+  .projecttab {
+    margin: 0 15em;
+    margin-top: 10vh;
+    width: 70em;
+    opacity: 0;
+  }
+
+  .projecttab img {
+    float: left;
+    width: 22em;
+  }
+
+  .projecttab p {
+    font-size: 1.5em;
+  }
+
+  .infogroup {
+    margin-left: 26em;
+  }
+
+  .infogroup h1 {
+    font-size: 3.5em;
+  }
+
+  .githublink img {
+    margin-top: -2em;
+    margin-left: -0.7em;
+    width: 18%;
+  }
+
+  footer {
+    bottom: -15em;
+  }
+
+  footer p {
+    font-size: 1.4em;
+    margin-left: 10vw;
+    width: 30em;
+  }
+}
+
+@media screen and (max-width: 90vh) {
+  #group-title {
+    width: 58%;
+  }
+
+  #title-icon {
+    height: 8.5em;
+    width: 8.5em;
+  }
+
+  #title {
+    font-size: 6.7em;
+    padding-left: 10vw;
+  }
+
+  #title-caption {
+    font-size: 2em;
+    padding-left: 10vw;
+  }
+
+  #navbar {
+    font-size: 2em;
+  }
+
+  .projecttab {
+    margin: 0 10em;
+    margin-top: 10vh;
+    width: 80em;
+  }
+
+  .projecttab img {
+    width: 30em;
+  }
+
+  .projecttab p {
+    font-size: 2em;
+  }
+
+  .infogroup {
+    margin-left: 35em;
+  }
+
+  .infogroup h1 {
+    font-size: 5em;
+  }
+
+  .githublink img {
+    margin-top: -2em;
+    margin-left: -0.7em;
+    width: 22%;
+  }
+
+  footer {
+    bottom: 0;
+  }
+
+  footer p {
+    font-size: 2em;
+    margin-left: 10vw;
+    width: 30em;
+  }
+}
