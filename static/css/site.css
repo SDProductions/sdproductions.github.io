@@ -172,26 +172,26 @@ footer p {
 
 @media screen and (max-width: 90vh) {
   #group-title {
-    width: 58%;
+    width: 80%;
   }
 
   #title-icon {
-    height: 8.5em;
-    width: 8.5em;
+    height: 14em;
+    width: 14em;
   }
 
   #title {
-    font-size: 6.7em;
-    padding-left: 10vw;
+    font-size: 9.5em;
+    padding-left: 16vw;
   }
 
   #title-caption {
-    font-size: 2em;
-    padding-left: 10vw;
+    font-size: 2.85em;
+    padding-left: 16vw;
   }
 
   #navbar {
-    font-size: 2em;
+    font-size: 4em;
   }
 
   .projecttab {
@@ -205,7 +205,7 @@ footer p {
   }
 
   .projecttab p {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .infogroup {
@@ -227,7 +227,7 @@ footer p {
   }
 
   footer p {
-    font-size: 2em;
+    font-size: 3em;
     margin-left: 10vw;
     width: 30em;
   }
