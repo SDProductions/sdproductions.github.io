@@ -186,7 +186,7 @@ footer p {
   }
 
   #title-caption {
-    font-size: 2.85em;
+    font-size: 2em;
     padding-left: 16vw;
   }
 
@@ -201,15 +201,16 @@ footer p {
   }
 
   .projecttab img {
-    width: 30em;
+    display: none;
+    width: 0;
   }
 
   .projecttab p {
-    font-size: 1.5em;
+    font-size: 1.5vw;
   }
 
   .infogroup {
-    margin-left: 35em;
+    margin-left: 0em;
   }
 
   .infogroup h1 {
@@ -217,6 +218,7 @@ footer p {
   }
 
   .githublink img {
+    display: inline;
     margin-top: -2em;
     margin-left: -0.7em;
     width: 22%;
