@@ -14,7 +14,7 @@ Desktop, Laptop, Tablet:
 Phone:
 9:16 (vertical)
 
-#Ratios to fix
+# Ratios to fix
 Desktop, Laptop, Tablet:
 9:16 (vertical)
 
