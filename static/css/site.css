@@ -46,6 +46,10 @@ body {
   display: none;
 }
 
+#networkvisualizer {
+  display: none;
+}
+
 #webventures {
   display: none;
 }
