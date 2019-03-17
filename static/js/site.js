@@ -11,6 +11,8 @@ function trackr() {
   document.getElementById("webventures").style.display = "none";
   $("#cynobroad").fadeTo(300, 0);
   document.getElementById("cynobroad").style.display = "none";
+  $("#networkvisualizer").fadeTo(300, 0);
+  document.getElementById("networkvisualizer").style.display = "none";
   $("#trackr").fadeTo(400, 1);
   return false;
 }
@@ -20,7 +22,20 @@ function cynobroad() {
   document.getElementById("trackr").style.display = "none";
   $("#webventures").fadeTo(300, 0);
   document.getElementById("webventures").style.display = "none";
+  $("#networkvisualizer").fadeTo(300, 0);
+  document.getElementById("networkvisualizer").style.display = "none";
   $("#cynobroad").fadeTo(400, 1);
+  return false;
+}
+
+function networkvisualizer() {
+  $("#trackr").fadeTo(300, 0);
+  document.getElementById("trackr").style.display = "none";
+  $("#webventures").fadeTo(300, 0);
+  document.getElementById("webventures").style.display = "none";
+  $("#cynobroad").fadeTo(300, 0);
+  document.getElementById("cynobroad").style.display = "none";
+  $("#networkvisualizer").fadeTo(400, 1);
   return false;
 }
 
@@ -29,6 +44,8 @@ function webventures() {
   document.getElementById("trackr").style.display = "none";
   $("#cynobroad").fadeTo(300, 0);
   document.getElementById("cynobroad").style.display = "none";
+  $("#networkvisualizer").fadeTo(300, 0);
+  document.getElementById("networkvisualizer").style.display = "none";
   $("#webventures").fadeTo(400, 1);
   return false;
 }
