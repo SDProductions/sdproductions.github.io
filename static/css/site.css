@@ -1,240 +1,72 @@
+html {
+  font-size: 16px;
+}
+
 body {
-  background-color: #efefef;
+  background-color: #fff;
   font-family: "Trebuchet MS", sans-serif;
-  font-size: 1vw;
   margin: 0;
-}
-
-#group-title {
-  margin: auto;
-  padding: 1em 2em;
-  width: 40%;
-  opacity: 0;
-}
-
-#title-icon {
-  float: left;
-  height: 6.2em;
-  width: 6.2em;
 }
 
 #title {
-  font-size: 4em;
-  margin: 0;
-  padding-left: 8vw;
+  width: 41rem;
+  margin: auto;
 }
 
-#title-caption {
-  font-size: 1.2em;
-  margin: 0;
-  padding-left: 8vw;
-}
-
-#navbar {
-  font-size: 1.2em;
-  margin: 0.4em;
-  text-align: center;
-  opacity: 0;
-}
-
-#navbar a {
-  color: #403F4C;
-  text-decoration: none;
-}
-
-#cynobroad {
-  display: none;
-}
-
-#networkvisualizer {
-  display: none;
-}
-
-#webventures {
-  display: none;
-}
-
-.projecttab {
-  margin: 0 20em;
-  margin-top: 4vh;
-  width: 60em;
-  opacity: 0;
-}
-
-.projecttab img {
+#title img {
   float: left;
-  width: 20em;
+  width: 6rem;
+  height: 6rem;
 }
 
-.projecttab p {
-  color: #403F4C;
-  font-size: 1.2em;
+#title h1 {
+  font-size: 5rem;
+  margin-left: 7rem;
 }
 
-.infogroup {
-  margin-left: 24em;
+.message {
+  position: absolute;
+  top: 30vh;
+  left: 0;
+  right: 0;
+  width: 40rem;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
-.infogroup h1 {
-  color: #3B3A46;
-  font-size: 3em;
+a {
+  text-decoration: none;
+  color: #0af;
 }
 
-.githublink {
-  position: relative;
-  bottom: 0;
-  left: 4em;
-}
-
-.githublink img {
-  margin-top: -1em;
-  margin-left: -0.5em;
-  width: 15%;
+section {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  right: 0;
 }
 
 footer {
   background-color: #555555;
   color: #cccccc;
-  font-size: 0.8em;
+  font-size: 1rem;
   margin-bottom: 0;
-  padding: 2em;
-  position: absolute;
-  bottom: -10em;
-  right: 0;
-  left: 0;
+  padding: 2rem;
 }
 
 footer p {
-  margin-left: 10em;
-  width: 30em;
+  width: 30rem;
 }
 
-@media screen and (max-width: 160vh) {
-  #group-title {
-    width: 48%;
-  }
-
-  #title-icon {
-    height: 8em;
-    width: 8em;
-  }
-
-  #title {
-    font-size: 5em;
-    padding-left: 9vw;
-  }
-
-  #title-caption {
-    font-size: 1.5em;
-    padding-left: 9vw;
-  }
-
-  #navbar {
-    font-size: 1.5em;
-  }
-
-  .projecttab {
-    margin: 0 15em;
-    margin-top: 10vh;
-    width: 70em;
-    opacity: 0;
-  }
-
-  .projecttab img {
-    float: left;
-    width: 22em;
-  }
-
-  .projecttab p {
-    font-size: 1.5em;
-  }
-
-  .infogroup {
-    margin-left: 26em;
-  }
-
-  .infogroup h1 {
-    font-size: 3.5em;
-  }
-
-  .githublink img {
-    margin-top: -2em;
-    margin-left: -0.7em;
-    width: 18%;
-  }
-
-  footer {
-    bottom: -15em;
-  }
-
-  footer p {
-    font-size: 1.4em;
-    margin-left: 10vw;
-    width: 30em;
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 12px;
   }
 }
 
-@media screen and (max-width: 90vh) {
-  #group-title {
-    width: 80%;
-  }
-
-  #title-icon {
-    height: 14em;
-    width: 14em;
-  }
-
-  #title {
-    font-size: 9.5em;
-    padding-left: 16vw;
-  }
-
-  #title-caption {
-    font-size: 2em;
-    padding-left: 16vw;
-  }
-
-  #navbar {
-    font-size: 4em;
-  }
-
-  .projecttab {
-    margin: 0 10em;
-    margin-top: 10vh;
-    width: 80em;
-  }
-
-  .projecttab img {
-    display: none;
-    width: 0;
-  }
-
-  .projecttab p {
-    font-size: 1.5vw;
-  }
-
-  .infogroup {
-    margin-left: 0em;
-  }
-
-  .infogroup h1 {
-    font-size: 5em;
-  }
-
-  .githublink img {
-    display: inline;
-    margin-top: -2em;
-    margin-left: -0.7em;
-    width: 22%;
-  }
-
-  footer {
-    bottom: 0;
-  }
-
-  footer p {
-    font-size: 3em;
-    margin-left: 10vw;
-    width: 30em;
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 8px;
   }
 }
