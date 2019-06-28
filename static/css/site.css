@@ -90,11 +90,14 @@ body {
   display: none;
   position: absolute;
   top: 0;
-  right: 0;
-  left: 0;
+  right: -50vw;
+  left: -50vw;
+  bottom: 0;
   height: 0;
-  background-color: #fafafa;
-  border-bottom: #ddd solid 3px;
+  width: 0;
+  margin: auto;
+  background-color: #abc;
+  border-radius: 50%;
   text-align: center;
 }
 

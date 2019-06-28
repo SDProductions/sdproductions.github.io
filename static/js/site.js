@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
     targets: '.nav',
     width: '45rem',
     duration: 1000
-  }, '-=500')
+  }, '-=400')
   .add({
     targets: '.navitem',
     opacity: 1,
@@ -47,9 +47,10 @@ function loadSection(el) {
 
   anime({
     targets: '#overlay',
-    easing: 'easeOutQuart',
-    height: '130vh',
-    backgroundColor: '#fff',
-    duration: 2500
+    easing: 'easeOutExpo',
+    height: '200vw',
+    width: '200vw',
+    backgroundColor: '#fdfeff',
+    duration: 2000
   });
 }
