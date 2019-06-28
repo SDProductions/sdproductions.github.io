@@ -33,9 +33,8 @@ document.addEventListener("DOMContentLoaded", function() {
   .add({
     targets: '.navitem',
     opacity: 1,
-    duration: 1500,
-    delay: anime.stagger(300)
-  }, '-=500')
+    duration: 1500
+  }, '-=800')
   .add({
     targets: '.navitem',
     transition: 'all 0.5s',
@@ -48,7 +47,7 @@ function loadSection(el) {
 
   anime({
     targets: '#overlay',
-    easing: 'easeOutCirc',
+    easing: 'easeOutQuart',
     height: '130vh',
     backgroundColor: '#fff',
     duration: 2500

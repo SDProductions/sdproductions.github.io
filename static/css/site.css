@@ -93,7 +93,8 @@ body {
   right: 0;
   left: 0;
   height: 0;
-  background-color: #eee;
+  background-color: #fafafa;
+  border-bottom: #ddd solid 3px;
   text-align: center;
 }
 
