@@ -101,9 +101,6 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-  html {
-    font-size: 12px;
-  }
   .nav {
     flex-wrap: wrap;
   }
@@ -115,14 +112,20 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 770px) {
   html {
-    font-size: 8px;
+    font-size: 12px;
   }
   #tagline {
     font-size: 2rem;
   }
   .navitem {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 8px;
   }
 }
