@@ -38,7 +38,7 @@ body {
   top: 0;
   bottom: 0;
   background-color: #9ab;
-  width: 6px;
+  width: 0.3rem;
   height: 0%;
   transform: rotate(10deg);
   opacity: 0;
@@ -66,7 +66,7 @@ body {
   width: 0;
   margin: auto;
   margin-top: 1.5rem;
-  border-top: #9ab solid 5px;
+  border-top: #9ab solid 0.3rem;
 }
 
 .navitem {
@@ -96,20 +96,22 @@ body {
   height: 0;
   width: 0;
   margin: auto;
-  background-color: #abc;
-  border-radius: 50%;
+  background-color: #eee;
   text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   html {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media (max-width: 550px) {
   html {
     font-size: 8px;
+  }
+  #tagline {
+    font-size: 2rem;
   }
   .nav {
     flex-wrap: wrap;

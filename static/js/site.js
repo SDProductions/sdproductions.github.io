@@ -48,9 +48,9 @@ function loadSection(el) {
   anime({
     targets: '#overlay',
     easing: 'easeOutExpo',
-    height: '200vw',
-    width: '200vw',
+    height: '100vh',
+    width: '100vw',
     backgroundColor: '#fdfeff',
-    duration: 2000
+    duration: 800
   });
 }
