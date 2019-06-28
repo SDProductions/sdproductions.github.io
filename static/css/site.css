@@ -100,13 +100,13 @@ body {
   text-align: center;
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   html {
     font-size: 12px;
   }
 }
 
-@media (max-width: 550px) {
+@media screen and (max-width: 768px) {
   html {
     font-size: 8px;
   }
