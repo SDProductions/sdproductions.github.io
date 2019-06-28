@@ -9,17 +9,25 @@
   <link rel="icon" type="image/x-icon" href="static/favicon.ico">
   <link rel="stylesheet" type="text/css" href="static/css/site.css">
   <script type="text/javascript" src="static/js/site.js"></script>
+  <script src="static/js/anime.min.js"></script>
 </head>
 <body>
-  <div id="title">
-    <img src="static/img/sdp-ico.png" alt="SDProductions Logo">
-    <h1>SDProductions</h1>
+  <div class="titlewrap">
+    <span class="left"></span>
+    <h1 id="title">
+      <img src="static/img/sdp-ico.png" alt="SDProductions Logo">
+      SDProductions
+    </h1>
+    <span class="right"></span>
   </div>
-  <div class="message">
-    <p>We're renovating.</p>
-    <a href="https://github.com/SDProductions">You can still visit our GitHub!</a>
+  <h3 id="tagline">Quality software for quality people.</h3>
+  <div class="nav">
+    <input class="navitem" onclick="loadSection('web')" type="button" value="Web" id="web">
+    <input class="navitem" onclick="loadSection('desktop')" type="button" value="Desktop" id="desktop">
+    <input class="navitem" onclick="loadSection('iot')" type="button" value="IoT" id="iot">
   </div>
-  <section>
+  <section id="overlay">
+
   </section>
 </body>
 </html>
