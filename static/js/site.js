@@ -1,16 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
   anime.timeline({
     easing: 'easeOutExpo',
-    duration: 750
+    duration: 700
   }).add({
     targets: '.titlewrap span',
-    height: '100%',
+    easing: 'easeOutQuad',
+    height: '75%',
+    duration: 400,
     opacity: 1
   })
-  .add({
-    targets: '.titlewrap span',
-    rotate: 10
-  }, '-=650')
   .add({
     targets: '.titlewrap',
     width: '42rem',
@@ -28,20 +26,16 @@ document.addEventListener("DOMContentLoaded", function() {
     opacity: 0
   })
   .add({
-    targets: '#tagline',
-    opacity: 1
-  }, "-=500")
-  .add({
     targets: '.nav',
     width: '45rem',
     duration: 1000
-  })
+  }, '-=500')
   .add({
     targets: '.navitem',
     opacity: 1,
     duration: 1500,
     delay: anime.stagger(300)
-  })
+  }, '-=500')
   .add({
     targets: '.navitem',
     transition: 'all 0.5s',

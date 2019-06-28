@@ -40,6 +40,7 @@ body {
   background-color: #9ab;
   width: 6px;
   height: 0%;
+  transform: rotate(10deg);
   opacity: 0;
 }
 
@@ -52,11 +53,11 @@ body {
 }
 
 #tagline {
-  text-align: center;
   font-size: 1.6rem;
-  margin: 0.2rem;
   color: #777;
-  opacity: 0;
+  margin: 0;
+  margin-left: 7.5rem;
+  overflow: hidden;
 }
 
 .nav {
@@ -93,6 +94,7 @@ body {
   left: 0;
   height: 0;
   background-color: #eee;
+  text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
