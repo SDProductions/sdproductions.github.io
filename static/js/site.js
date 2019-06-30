@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   anime.timeline({
     easing: 'easeOutExpo',
-    duration: 700
+    duration: 600
   }).add({
     targets: '.titlewrap span',
     easing: 'easeOutQuad',
@@ -42,14 +42,23 @@ document.addEventListener("DOMContentLoaded", function() {
   }, "-=600");
 });
 
-function loadSection(el) {
-  document.getElementById("overlay").style.display = 'block';
+function loadSection(section) {
+  document.getElementById("headertitle").innerHTML = section;
 
-  anime({
-    targets: '#overlay',
+  var overlay = document.getElementById("overlay");
+  overlay.style.display = 'block';
+
+  anime.timeline()
+  .add({
+    targets: overlay,
     easing: 'easeOutExpo',
-    height: '100vh',
-    backgroundColor: '#fdfeff',
-    duration: 1000
+    minHeight: '100vh',
+    backgroundColor: '#fff',
+    duration: 1500,
+    complete: function() {
+      overlay.style.bottom = 'unset';
+    }
+  })
+  .add({
   });
 }
