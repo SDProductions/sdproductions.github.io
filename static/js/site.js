@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", function() {
   .add({
     targets: '.titlewrap',
     width: '42rem',
-    easing: 'easeInOutQuart',
+    easing: 'easeInOutCubic',
     duration: 1400
   })
   .add({
     targets: '#title',
     width: '42rem',
-    easing: 'easeInOutQuart',
+    easing: 'easeInOutCubic',
     duration: 1400
   }, '-=1400')
   .add({
@@ -49,8 +49,7 @@ function loadSection(el) {
     targets: '#overlay',
     easing: 'easeOutExpo',
     height: '100vh',
-    width: '100vw',
     backgroundColor: '#fdfeff',
-    duration: 800
+    duration: 1000
   });
 }

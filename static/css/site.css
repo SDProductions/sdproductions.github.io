@@ -90,14 +90,39 @@ body {
   display: none;
   position: absolute;
   top: 0;
-  right: -50vw;
-  left: -50vw;
+  right: 0;
+  left: 0;
   bottom: 0;
   height: 0;
-  width: 0;
   margin: auto;
   background-color: #eee;
   text-align: center;
+}
+
+.header {
+  width: 40rem;
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.header img {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+}
+
+.header hr {
+  display: inline-block;
+  width: 15rem;
+  margin: 0 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#headertitle {
+  margin: 0;
+  font-family: 'Calibri Light', sans-serif;
+  font-size: 4rem;
 }
 
 @media screen and (max-width: 1000px) {
