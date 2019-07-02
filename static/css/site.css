@@ -107,7 +107,7 @@ body {
   text-align: center;
 }
 
-.header #logo {
+#close {
   display: inline-block;
   width: 3rem;
   height: 3rem;

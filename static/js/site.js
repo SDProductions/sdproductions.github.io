@@ -1,14 +1,14 @@
-var overlay, hLogo;
+var overlay, closeButton;
 
 document.addEventListener("DOMContentLoaded", function() {
   overlay = document.getElementById("overlay");
-  hLogo = document.getElementById("logo");
+  closeButton = document.getElementById("close");
 
-  hLogo.onclick = closeSection;
-  hLogo.onmouseover = function() {
+  closeButton.onclick = closeSection;
+  closeButton.onmouseover = function() {
     document.body.style.cursor = "pointer";
   }
-  hLogo.onmouseleave = function() {
+  closeButton.onmouseleave = function() {
     document.body.style.cursor = "auto";
   }
 
@@ -61,8 +61,7 @@ function loadSection(section) {
 
   overlay.style.display = 'block';
 
-  anime.timeline()
-  .add({
+  anime({
     targets: overlay,
     easing: 'easeOutExpo',
     minHeight: '100vh',
@@ -72,7 +71,11 @@ function loadSection(section) {
       overlay.style.bottom = 'unset';
     }
   })
-  .add({
+  anime({
+    targets: closeButton,
+    easing: 'easeOutExpo',
+    rotate: 360,
+    duration: 2000
   });
 }
 
@@ -87,5 +90,11 @@ function closeSection() {
     complete: function() {
       overlay.style.display = 'none';
     }
+  });
+  anime({
+    targets: closeButton,
+    easing: 'easeOutExpo',
+    rotate: 0,
+    duration: 2000
   })
 }
