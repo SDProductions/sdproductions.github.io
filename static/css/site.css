@@ -106,7 +106,7 @@ body {
   text-align: center;
 }
 
-.header img {
+.header #logo {
   display: inline-block;
   width: 3rem;
   height: 3rem;
@@ -123,6 +123,12 @@ body {
   margin: 0;
   font-family: 'Calibri Light', sans-serif;
   font-size: 4rem;
+}
+
+#contentimage {
+  width: 40rem;
+  height: 40rem;
+  margin-top: 5vh;
 }
 
 @media screen and (max-width: 1000px) {

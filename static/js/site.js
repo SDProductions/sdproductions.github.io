@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function loadSection(section) {
   document.getElementById("headertitle").innerHTML = section;
+  document.getElementById("contentimage").src = "static/img/"+section+".svg";
 
   var overlay = document.getElementById("overlay");
   overlay.style.display = 'block';
