@@ -49,10 +49,16 @@ document.addEventListener("DOMContentLoaded", function() {
     duration: 1500
   }, '-=800')
   .add({
+    targets: '#scrollprompt',
+    bottom: '5rem',
+    opacity: 1,
+    duration: 1500
+  }, "-=1500")
+  .add({
     targets: '.navitem',
     transition: 'all 0.4s',
     duration: 100
-  }, "-=600");
+  }, "-=1000");
 });
 
 function loadSection(section) {
