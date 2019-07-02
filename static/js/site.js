@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
     duration: 1500
   }, '-=800')
   .add({
-    targets: '#scrollprompt',
+    targets: '.scrollprompt',
     bottom: '5rem',
     opacity: 1,
     duration: 1500
@@ -70,12 +70,9 @@ function loadSection(section) {
   anime({
     targets: overlay,
     easing: 'easeOutExpo',
-    minHeight: '100vh',
+    height: '100%',
     backgroundColor: '#fff',
-    duration: 1400,
-    complete: function() {
-      overlay.style.bottom = 'unset';
-    }
+    duration: 1400
   })
   anime({
     targets: closeButton,
@@ -83,14 +80,16 @@ function loadSection(section) {
     rotate: 360,
     duration: 2000
   });
+
+  overlay.style.height
+  document.getElementById(section).style.display = 'block';
 }
 
 function closeSection() {
   anime({
     targets: overlay,
     easing: 'easeOutSine',
-    minHeight: '0',
-    bottom: 0,
+    height: '0',
     backgroundColor: '#f2f2f2',
     duration: 350,
     complete: function() {
@@ -102,5 +101,8 @@ function closeSection() {
     easing: 'easeOutExpo',
     rotate: 0,
     duration: 2000
-  })
+  });
+  document.getElementById("Web").style.display = 'none';
+  document.getElementById("Desktop").style.display = 'none';
+  document.getElementById("IoT").style.display = 'none';
 }
