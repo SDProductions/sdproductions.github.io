@@ -5,52 +5,72 @@
   <meta charset="utf-8">
   <meta name="description" content="SDProductions - Quality software for quality people.">
   <meta name="keywords" content="C#, ASP.NET Core, .NET Core, Software, SDBagel, SDProductions">
-  <meta name="author" content="SDBagel">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="static/css/site.css">
   <script type="text/javascript" src="static/js/site.js"></script>
   <script src="static/js/anime.min.js"></script>
 </head>
 <body>
-  <div class="titlewrap">
-    <span class="left"></span>
-    <h1 id="title">
-      <img src="static/img/sdp-ico.png" alt="SDProductions Logo">
-      SDProductions
-    </h1>
-    <span class="right"></span>
-    <h3 id="tagline">Quality software for quality people.</h3>
-  </div>
-  <div class="nav">
-    <input class="navitem" type="button" onclick="loadSection('Web')" value="Web" id="web">
-    <input class="navitem" type="button" onclick="loadSection('Desktop')" value="Desktop" id="desktop">
-    <input class="navitem" type="button" onclick="loadSection('IoT')" value="IoT" id="iot">
-  </div>
-  <div class="scrollprompt">
-    <img src="static/img/scroll.svg" alt="Scroll Down"> 
-    <p>About Us</p>
-  </div>
-  <section id="overlay">
+  <header>
+    <nav>
+      <img src="static/img/ico.svg" alt="Logo">
+      <button>Products</button>
+    </nav>
+  </header>
+  <div id="content" class="container">
+    <img id="bg-img" src="static/img/Mobile.svg" alt="Phone">
+    <h1>Modern Productivity Software, <b>Free.</b></h1>
+    <button id="start">Get Started</button>
+    <br>
     <div class="header">
-      <hr>
-      <img id="close" src="static/img/x.svg" alt="Close" onclick="closeSection()">
-      <hr>
-      <p id="headertitle">Content Title Goes Here</p>
-      <img id="contentimage" src="static/img/web.svg" alt="Content Image">
+      <p>Community Driven Design</p>
     </div>
-    <div class="scrollprompt">
-        <img src="static/img/scroll.svg" alt="Scroll Down"> 
-        <p>More Info</p>
-      </div>
-    <section id="Web">
-      <h1>Desktop First Design</h1>
-    </section>
-    <section id="Desktop">
-      <h1>Advanced Solutions for Basic Problems</h1>
-    </section>
-    <section id="IoT">
-      <h1>Mission Critical Fun</h1>
-    </section>
-  </section>
+    <div class="card">
+      <img src="static/img/Desktop.svg" alt="Computer">
+      <h2 class="text">Open Source</h2>
+      <p class="text">Under MIT. No surprises, open to all.</p>
+    </div>
+    <div class="card">
+      <img src="static/img/Web.svg" alt="Devices">
+      <h2 class="text">Multi-Platform</h2>
+      <p class="text">Windows, Mac, and Linux. Mobile too.</p>
+    </div>
+    <div class="card">
+      <img src="static/img/IoT.svg" alt="IoT Board">
+      <h2 class="text">Mission Critical</h2>
+      <p class="text">99.9% service uptime, all the time.</p>
+    </div>
+    <div class="header">
+      <p>Used By</p>
+    </div>
+    <div class="card">
+      <img src="static/img/x.svg" alt="X">
+      <h2 class="text">Ourselves</h2>
+      <p class="text">Google does it, so why can't we?</p>
+    </div>
+    <div class="header">
+      <p>Products</p>
+    </div>
+    <div class="card">
+      <img src="static/img/x.svg" alt="X">
+      <h2 class="text">IDK</h2>
+      <p class="text">lol they're all bad pls no download</p>
+    </div>
+    <div class="card">
+      <img src="static/img/x.svg" alt="X">
+      <h2 class="text">Like, really</h2>
+      <p class="text">they probably don't even work properly</p>
+    </div>
+    <div class="card">
+      <img src="static/img/x.svg" alt="X">
+      <h2 class="text">Go away</h2>
+      <p class="text">but ig if you wanted to make it better <a href="https://github.com/SDProductions">here you go</a></p>
+    </div>
+  </div>
+  <footer>
+
+  </footer>
 </body>
 </html>
