@@ -69,6 +69,7 @@ h1 {
 }
 
 #content #bg-img {
+  display: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -129,6 +130,12 @@ footer {
   height: 10rem;
   margin-top: 5rem;
   padding: 0 2rem;
+}
+
+@media screen and (min-width: 400px) {
+  #content #bg-img {
+    display: unset;
+  }
 }
 
 @media screen and (min-width: 600px) {

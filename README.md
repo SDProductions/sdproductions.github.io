@@ -2,23 +2,8 @@
 
 GitHub Pages for SDProductions
 
-Will redo the CSS for this page to make device compatibility not trashy at some point, but here are the supported and non-functioning aspect ratios currently.
+Engineered with locally sourced, organically grown, modern web standards. With mobile-first design and a clean, organized UI, users will be compelled to download our software.
 
-# Confirmed functioning screen aspect ratios:
-Desktop, Laptop, Tablet:
-3:2
-4:3
-16:9
-16:10
+Or something.
 
-Phone:
-9:16 (vertical)
-
-# Ratios to fix
-Desktop, Laptop, Tablet:
-9:16 (vertical)
-
-Phone:
-16:9
-
-Ultrawide, probably
+Either way, this site and all of the stuff in it, with the exception of any images and SDProductions branding, are all licensed under MIT. Like something here? Feel free to steal it!
