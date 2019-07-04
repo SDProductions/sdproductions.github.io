@@ -68,19 +68,19 @@ nav button:hover {
 
 #title-wrapper h1 {
   color: #93a3b1;
-  font-size: 3.75rem;
+  font-size: 3rem;
   font-weight: 100;
   line-height: 4rem;
   width: 15rem;
 }
 
 #title-wrapper img {
-  display: none;
   position: absolute;
   top: 0;
   right: 0;
   z-index: -1;
   width: 10rem;
+  opacity: 0.4;
 }
 
 #start {
@@ -132,6 +132,12 @@ nav button:hover {
   margin-left: 6rem;
 }
 
+#about {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  padding: 1rem 2rem;
+}
+
 footer {
   background-color: #32292f;
   min-height: 10rem;
@@ -141,8 +147,11 @@ footer {
 }
 
 @media screen and (min-width: 400px) {
+  #title-wrapper h1 {
+    font-size: 3.75rem;
+  }
   #title-wrapper img {
-    display: unset;
+    opacity: 0.8;
   }
   #start {
     width: 18rem;
@@ -199,11 +208,14 @@ footer {
   .card .text {
     margin: 0;
   }
+  #about {
+    padding: 3rem 8rem;
+  }
   footer {
     padding: 2rem 15%;
   }
   footer section {
-    width: 35rem;
+    width: 42rem;
   }
 }
 
