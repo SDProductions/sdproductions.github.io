@@ -13,11 +13,6 @@ body {
   margin: 0 2rem;
 }
 
-#content {
-  position: relative;
-  margin-top: 8rem;
-}
-
 br {
   clear: both;
 }
@@ -28,7 +23,6 @@ a {
 }
 
 button {
-  background-color: inherit;
   box-shadow: none;
   border: solid 2px;
   border-radius: 0.5rem;
@@ -56,6 +50,7 @@ nav img {
 }
 
 nav button {
+  background-color: #32292f;
   border-color: #f4f4f4;
   color: #f4f4f4;
   float: right;
@@ -66,7 +61,12 @@ nav button:hover {
   color: #78a1bb;
 }
 
-h1 {
+#title-wrapper {
+  position: relative;
+  margin-top: 8rem;
+}
+
+#title-wrapper h1 {
   color: #93a3b1;
   font-size: 3.75rem;
   font-weight: 100;
@@ -74,13 +74,13 @@ h1 {
   width: 15rem;
 }
 
-#content #bg-img {
+#title-wrapper img {
   display: none;
   position: absolute;
   top: 0;
   right: 0;
   z-index: -1;
-  width: 8rem;
+  width: 10rem;
 }
 
 #start {
@@ -120,7 +120,6 @@ h1 {
 .card img {
   float: left;
   width: 5rem;
-  max-height: 40%;
 }
 
 .card h2 {
@@ -135,14 +134,14 @@ h1 {
 
 footer {
   background-color: #32292f;
-  height: 10rem;
+  min-height: 10rem;
   margin-top: 5rem;
   padding: 2rem;
   color: #f4f4f4;
 }
 
 @media screen and (min-width: 400px) {
-  #content #bg-img {
+  #title-wrapper img {
     display: unset;
   }
   #start {
@@ -164,9 +163,48 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  nav {
+    padding: 0 6rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
+  .container {
+    width: 80%;
+  }
+  nav {
+    padding: 0 8rem;
+  }
+  #title-wrapper {
+    width: 30rem;
+    margin: auto;
+    margin-top: 8rem;
+  }
+  section {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1 1;
+  }
+  .card {
+    margin: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  .card img {
+    float: unset;
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+  }
+  .card .text {
+    margin: 0;
+  }
+  footer {
+    padding: 2rem 15%;
+  }
+  footer section {
+    width: 35rem;
+  }
 }
 
 @media screen and (min-width: 1200px) {
