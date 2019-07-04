@@ -1,6 +1,7 @@
 html {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -70,7 +71,7 @@ h1 {
   font-size: 3.75rem;
   font-weight: 100;
   line-height: 4rem;
-  width: 20rem;
+  width: 15rem;
 }
 
 #content #bg-img {
@@ -79,7 +80,7 @@ h1 {
   top: 0;
   right: 0;
   z-index: -1;
-  width: 10rem;
+  width: 8rem;
 }
 
 #start {
@@ -87,7 +88,8 @@ h1 {
   background-color: #78a1bb;
   border-color: #78a1bb;
   color: #32292f;
-  width: 18rem;
+  width: 80%;
+  margin-top: 1rem;
   font-weight: 400;
 }
 
@@ -118,6 +120,7 @@ h1 {
 .card img {
   float: left;
   width: 5rem;
+  max-height: 40%;
 }
 
 .card h2 {
@@ -142,6 +145,9 @@ footer {
   #content #bg-img {
     display: unset;
   }
+  #start {
+    width: 18rem;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -152,10 +158,15 @@ footer {
   nav {
     padding: 0 3rem;
   }
+  footer {
+    padding: 2rem 3rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
-
+  .card {
+    width: 100%;
+  };
 }
 
 @media screen and (min-width: 992px) {
