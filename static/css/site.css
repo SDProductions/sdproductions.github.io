@@ -80,7 +80,7 @@ nav button:hover {
   right: 0;
   z-index: -1;
   width: 10rem;
-  opacity: 0.4;
+  opacity: 0.2;
 }
 
 #start {
@@ -132,10 +132,11 @@ nav button:hover {
   margin-left: 6rem;
 }
 
-#about {
-  font-size: 1.4rem;
+.paragraph {
+  font-size: 1.2rem;
   line-height: 2.2rem;
-  padding: 1rem 2rem;
+  padding: 1rem 0.8rem;
+  text-align: center;
 }
 
 footer {
@@ -144,6 +145,10 @@ footer {
   margin-top: 5rem;
   padding: 2rem;
   color: #f4f4f4;
+}
+
+footer > p {
+  color: #93a3b1;
 }
 
 @media screen and (min-width: 400px) {
@@ -174,6 +179,9 @@ footer {
 @media screen and (min-width: 768px) {
   nav {
     padding: 0 6rem;
+  }
+  .paragraph {
+    padding: 2rem 2rem;
   }
 }
 
@@ -208,17 +216,20 @@ footer {
   .card .text {
     margin: 0;
   }
-  #about {
-    padding: 3rem 8rem;
+  .paragraph {
+    padding: 3rem 6rem;
   }
   footer {
     padding: 2rem 15%;
   }
-  footer section {
-    width: 42rem;
-  }
 }
 
 @media screen and (min-width: 1200px) {
+  
+}
 
+@media screen and (min-width: 1600px) {
+  .container {
+    width: 80rem;
+  }
 }
