@@ -49,6 +49,14 @@ nav img {
   margin: 0.75rem 0;
 }
 
+nav a {
+  color: #93a3b1;
+  font-size: 1.2rem;
+  line-height: 4rem;
+  float: right;
+  width: 6rem;
+}
+
 nav button {
   background-color: #32292f;
   border-color: #f4f4f4;
@@ -122,6 +130,17 @@ nav button:hover {
   width: 5rem;
 }
 
+.card .icons {
+  float: right;
+  padding: 0.3rem;
+  display: none;
+}
+
+.card .icons img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
 .card h2 {
   color: #424d63bb !important;
 }
@@ -160,6 +179,13 @@ footer > p {
   }
   #start {
     width: 18rem;
+  }
+  .card .icons {
+    display: block;
+  }
+  .card .icons img {
+    display: inline-block;
+    padding: 0 0.3rem;
   }
 }
 
@@ -212,6 +238,10 @@ footer > p {
     width: 10rem;
     height: 10rem;
     margin: auto;
+  }
+  .card .icons {
+    float: unset;
+    margin-top: -1rem;
   }
   .card .text {
     margin: 0;
