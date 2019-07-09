@@ -252,6 +252,9 @@ footer > p {
   footer {
     padding: 2rem 15%;
   }
+  footer hr {
+    margin: 0 15%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
