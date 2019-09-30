@@ -73,6 +73,11 @@ nav button:hover {
   color: #78a1bb;
 }
 
+.standalone-header {
+  margin-top: 200px;
+  text-align: center
+}
+
 .block-header {
   position: relative;
   z-index: -1;
